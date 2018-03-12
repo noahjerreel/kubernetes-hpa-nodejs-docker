@@ -1,4 +1,4 @@
-FROM bitnami/node:9
+FROM node:alpine
 
 RUN mkdir -p /usr/src/k8s_node_app
 

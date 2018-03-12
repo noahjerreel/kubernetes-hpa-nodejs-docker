@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: hpa-deployment
+spec:
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: hpa-deployment
+    spec:
+      containers:
+      - name: hpa-deployment
+        image: devthedev/k8s-hpa-nodejs
+        ports:
+        - name: http-port
+          containerPort: 80
+        resources:
+          limits:
+            cpu: "0.4"
+          requests:
+            cpu: "0.2"

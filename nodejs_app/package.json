@@ -1,0 +1,20 @@
+{
+  "name": "k8s-hpa-nodejs-docker",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharmad/kubernetes-hpa-nodejs-docker"
+  },
+  "keywords": [],
+  "author": "Dev Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharmad/kubernetes-hpa-nodejs-docker"
+  },
+  "homepage": "https://github.com/sharmad/kubernetes-hpa-nodejs-docker"
+}
